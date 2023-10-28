@@ -16,6 +16,7 @@
 #include "llvm/Demangle/DemangleConfig.h"
 #include "llvm/Demangle/StringView.h"
 #include <array>
+#include <string>
 
 namespace llvm {
 namespace itanium_demangle {
@@ -28,6 +29,9 @@ using llvm::itanium_demangle::StringView;
 
 namespace llvm {
 namespace ms_demangle {
+
+typedef unsigned char uint8_t;
+typedef unsigned short  uint16_t;
 
 // Storage classes
 enum Qualifiers : uint8_t {
