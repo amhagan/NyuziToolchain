@@ -81,7 +81,7 @@ set(LLVM_TEST_DEPENDS
           llvm-opt-report
           llvm-pdbutil
           llvm-profdata
-          llvm-ranlib
+#          llvm-ranlib
           llvm-rc
           llvm-readobj
           llvm-readelf
@@ -89,7 +89,7 @@ set(LLVM_TEST_DEPENDS
           llvm-size
           llvm-split
           llvm-strings
-          llvm-strip
+#          llvm-strip
           llvm-symbolizer
           llvm-tblgen
           llvm-undname

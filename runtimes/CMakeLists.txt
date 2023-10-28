@@ -261,7 +261,8 @@ else() # if this is included from LLVM's CMake
                                         -DCMAKE_ASM_COMPILER_WORKS=ON
                                         -DCOMPILER_RT_DEFAULT_TARGET_ONLY=ON
                                         ${${target}_extra_args}
-                             TOOLCHAIN_TOOLS clang lld llvm-ar llvm-ranlib llvm-nm llvm-objcopy llvm-objdump llvm-strip
+#                             TOOLCHAIN_TOOLS clang lld llvm-ar llvm-ranlib llvm-nm llvm-objcopy llvm-objdump llvm-strip
+                             TOOLCHAIN_TOOLS clang lld llvm-ar  llvm-nm llvm-objcopy llvm-objdump 
                              USE_TOOLCHAIN
                              ${EXTRA_ARGS})
   endfunction()
